@@ -91,6 +91,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    console.log('Test') // for PR
+
     function cancelEdit(index) {
         tasks[index].editing = false;
         renderTasks();
